@@ -5817,6 +5817,121 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+      "server": "162.159.62.27",
+      "server_port": 443,
+      "uuid": "9d6c72b3-44af-4905-8c1e-60a470c942f7",
+      "transport": {
+        "path": "/proxyip=50.117.3.141",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-mango-core-1be4.nova-5f1031.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-mango-core-1be4.nova-5f1031.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+      "server": "104.25.99.105",
+      "server_port": 443,
+      "uuid": "9d6c72b3-44af-4905-8c1e-60a470c942f7",
+      "transport": {
+        "path": "/proxyip=50.117.3.141",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-mango-core-1be4.nova-5f1031.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-mango-core-1be4.nova-5f1031.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+      "server": "104.16.101.83",
+      "server_port": 443,
+      "uuid": "9d6c72b3-44af-4905-8c1e-60a470c942f7",
+      "transport": {
+        "path": "/proxyip=50.117.3.141",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-mango-core-1be4.nova-5f1031.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-mango-core-1be4.nova-5f1031.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+      "server": "104.26.120.101",
+      "server_port": 443,
+      "uuid": "9d6c72b3-44af-4905-8c1e-60a470c942f7",
+      "transport": {
+        "path": "/proxyip=50.117.3.141",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-mango-core-1be4.nova-5f1031.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-mango-core-1be4.nova-5f1031.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]",
+      "server": "104.18.46.83",
+      "server_port": 443,
+      "uuid": "9d6c72b3-44af-4905-8c1e-60a470c942f7",
+      "transport": {
+        "path": "/proxyip=50.117.3.141",
+        "type": "ws",
+        "headers": {
+          "Host": "nova-mango-core-1be4.nova-5f1031.workers.dev"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "nova-mango-core-1be4.nova-5f1031.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "🚀 节点选择",
       "outbounds": [
@@ -6073,7 +6188,12 @@
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:8443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2083 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2053 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]"
       ]
     },
     {
@@ -6328,7 +6448,12 @@
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:8443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2083 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2053 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -6586,7 +6711,12 @@
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:8443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2083 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2053 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]"
       ]
     },
     {
@@ -6841,7 +6971,12 @@
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:8443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2083 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2053 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]"
       ]
     },
     {
@@ -7121,7 +7256,12 @@
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:8443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2083 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2053 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]"
       ]
     },
     {
@@ -7383,7 +7523,12 @@
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:8443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2083 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2053 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]"
       ]
     },
     {
@@ -7640,7 +7785,12 @@
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:8443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2083 [VLESS]",
         "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2053 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 172.67.150.48:2087 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 162.159.62.27:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.25.99.105:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.16.101.83:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.26.120.101:443 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک  @khashayar_larangi 104.18.46.83:443 [VLESS]"
       ]
     },
     {
