@@ -128,9 +128,9 @@
     },
     {
       "type": "vless",
-      "tag": "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
-      "server": "104.18.0.0",
-      "server_port": 443,
+      "tag": "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+      "server": "104.18.1.1",
+      "server_port": 2053,
       "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
       "transport": {
         "path": "/f3d6a9b8a82d/proxyip=50.117.3.141",
@@ -151,9 +151,9 @@
     },
     {
       "type": "vless",
-      "tag": "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
-      "server": "104.18.1.1",
-      "server_port": 2053,
+      "tag": "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
+      "server": "104.18.0.0",
+      "server_port": 443,
       "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
       "transport": {
         "path": "/f3d6a9b8a82d/proxyip=50.117.3.141",
@@ -182,8 +182,8 @@
         "DIRECT",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
@@ -193,8 +193,8 @@
       "outbounds": [
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -206,8 +206,8 @@
       "outbounds": [
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]"
       ]
     },
     {
@@ -216,8 +216,8 @@
       "outbounds": [
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]"
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]"
       ]
     },
     {
@@ -250,8 +250,8 @@
         "🔮 负载均衡",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
@@ -267,8 +267,8 @@
         "🔮 负载均衡",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
@@ -279,8 +279,8 @@
         "DIRECT",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "❤️ سرویس خشایار برای فرانک@irnova 104.18.1.1:2053 [VLESS]",
+        "❤️ سرویس خشایار برای فرانک@irnova 104.18.0.0:443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
