@@ -130,8 +130,8 @@
     },
     {
       "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-      "server": "swift-wren-bd38.nova-5f1031.workers.dev",
+      "tag": "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+      "server": "a.khashi72.dpdns.org",
       "server_port": 443,
       "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
       "transport": {
@@ -152,14 +152,14 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
       "server": "104.27.118.76",
       "server_port": 2096,
-      "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
       "transport": {
-        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
         "type": "ws",
+        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
         "headers": {
           "Host": "a.khashi72.dpdns.org"
         }
@@ -175,22 +175,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
       "server": "104.27.118.76",
       "server_port": 2083,
-      "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
-      "transport": {
-        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
-        "type": "ws",
-        "headers": {
-          "Host": "a.khashi72.dpdns.org"
-        }
-      },
+      "method": "undefined",
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=a.khashi72.dpdns.org;path=/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined;tls",
       "tls": {
         "enabled": true,
-        "server_name": "a.khashi72.dpdns.org",
-        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -221,14 +215,14 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
       "server": "104.27.118.76",
       "server_port": 2053,
-      "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
       "transport": {
-        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
         "type": "ws",
+        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
         "headers": {
           "Host": "a.khashi72.dpdns.org"
         }
@@ -244,22 +238,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
       "server": "104.27.118.76",
       "server_port": 8443,
-      "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
-      "transport": {
-        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
-        "type": "ws",
-        "headers": {
-          "Host": "a.khashi72.dpdns.org"
-        }
-      },
+      "method": "undefined",
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=a.khashi72.dpdns.org;path=/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined;tls",
       "tls": {
         "enabled": true,
-        "server_name": "a.khashi72.dpdns.org",
-        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -290,10 +278,113 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]",
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
       "server": "104.26.0.207",
       "server_port": 2083,
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "transport": {
+        "type": "ws",
+        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
+        "headers": {
+          "Host": "a.khashi72.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "a.khashi72.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+      "server": "172.67.111.168",
+      "server_port": 2087,
+      "method": "undefined",
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=a.khashi72.dpdns.org;path=/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+      "server": "172.67.111.168",
+      "server_port": 2083,
+      "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "transport": {
+        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
+        "type": "ws",
+        "headers": {
+          "Host": "a.khashi72.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "a.khashi72.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+      "server": "172.67.111.168",
+      "server_port": 2096,
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "transport": {
+        "type": "ws",
+        "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
+        "headers": {
+          "Host": "a.khashi72.dpdns.org"
+        }
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "a.khashi72.dpdns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+      "server": "172.67.111.168",
+      "server_port": 2053,
+      "method": "undefined",
+      "password": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
+      "plugin": "v2ray-plugin",
+      "plugin_opts": "mode=websocket;host=a.khashi72.dpdns.org;path=/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined;tls",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]",
+      "server": "172.67.111.168",
+      "server_port": 8443,
       "uuid": "51bec1f4-367d-4a24-b547-b4b87f2d214f",
       "transport": {
         "path": "/f3d6a9b8a82d/proxyip=150.136.243.175",
@@ -322,14 +413,19 @@
         "DIRECT",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-        "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
         "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
         "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
@@ -339,14 +435,19 @@
       "outbounds": [
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-        "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
         "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
         "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]"
+        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "5m",
@@ -358,14 +459,19 @@
       "outbounds": [
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-        "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
         "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
         "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]"
+        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]"
       ]
     },
     {
@@ -374,14 +480,19 @@
       "outbounds": [
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-        "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
         "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
         "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]"
+        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]"
       ]
     },
     {
@@ -414,14 +525,19 @@
         "🔮 负载均衡",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-        "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
         "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
         "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
@@ -437,14 +553,19 @@
         "🔮 负载均衡",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-        "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
         "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
         "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
@@ -455,14 +576,19 @@
         "DIRECT",
         "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
         "0.00GB / 9999GB (0%)  |  📅 2099-01-01",
-        "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]",
         "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]",
+        "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]",
         "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]",
-        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]",
+        "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]",
         "📢 https://t.me/irnova"
       ]
     },
@@ -500,12 +626,12 @@
         "type": "ws",
         "path": "/?fake=1",
         "headers": {
-          "Host": "swift-wren-bd38.nova-5f1031.workers.dev"
+          "Host": "a.khashi72.dpdns.org"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "swift-wren-bd38.nova-5f1031.workers.dev"
+        "server_name": "a.khashi72.dpdns.org"
       }
     }
   ],
