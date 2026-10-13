@@ -29,7 +29,7 @@ mode: rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "📢 https://t.me/irnova", server: 192.0.2.1, port: 443, type: vmess, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, alterId: 0, cipher: auto, tls: true, servername: "swift-wren-bd38.nova-5f1031.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "swift-wren-bd38.nova-5f1031.workers.dev"}}, udp: false}
+  - {name: "📢 https://t.me/irnova", server: 192.0.2.1, port: 443, type: vmess, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, alterId: 0, cipher: auto, tls: true, servername: "a.khashi72.dpdns.org", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "a.khashi72.dpdns.org"}}, udp: false}
   - name: "Nova-WARP"
     type: wireguard
     server: engage.cloudflareclient.com
@@ -44,14 +44,19 @@ proxies:
     amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
   - {name: "سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]", server: swift-wren-bd38.nova-5f1031.workers.dev, port: 443, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: swift-wren-bd38.nova-5f1031.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /f3d6a9b8a82d, headers: {Host: swift-wren-bd38.nova-5f1031.workers.dev}}}
   - {name: 0.00GB / 9999GB (0%)  |  📅 2099-01-01, server: 192.0.2.2, port: 443, type: vmess, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: swift-wren-bd38.nova-5f1031.workers.dev, network: ws, ws-opts: {path: "/?fake=1", headers: {Host: swift-wren-bd38.nova-5f1031.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]", server: swift-wren-bd38.nova-5f1031.workers.dev, port: 443, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]", server: 104.27.118.76, port: 2096, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]", server: 104.27.118.76, port: 2083, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]", server: a.khashi72.dpdns.org, port: 443, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]", server: 104.27.118.76, port: 2096, type: trojan, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, sni: a.khashi72.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]", server: 104.27.118.76, port: 2083, type: ss, cipher: undefined, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a.khashi72.dpdns.org, path: "/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
   - {name: "سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]", server: 104.27.118.76, port: 2087, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]", server: 104.27.118.76, port: 2053, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]", server: 104.27.118.76, port: 8443, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]", server: 104.27.118.76, port: 2053, type: trojan, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, sni: a.khashi72.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]", server: 104.27.118.76, port: 8443, type: ss, cipher: undefined, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a.khashi72.dpdns.org, path: "/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
   - {name: "سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]", server: 104.26.0.207, port: 2053, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
-  - {name: "سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]", server: 104.26.0.207, port: 2083, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]", server: 104.26.0.207, port: 2083, type: trojan, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, sni: a.khashi72.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]", server: 172.67.111.168, port: 2087, type: ss, cipher: undefined, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a.khashi72.dpdns.org, path: "/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]", server: 172.67.111.168, port: 2083, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]", server: 172.67.111.168, port: 2096, type: trojan, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, sni: a.khashi72.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
+  - {name: "سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]", server: 172.67.111.168, port: 2053, type: ss, cipher: undefined, password: 51bec1f4-367d-4a24-b547-b4b87f2d214f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: a.khashi72.dpdns.org, path: "/f3d6a9b8a82d/proxyip\\=150.136.243.175?enc\\=undefined", tls: true, mux: false, skip-cert-verify: false}}
+  - {name: "سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]", server: 172.67.111.168, port: 8443, type: vless, uuid: 51bec1f4-367d-4a24-b547-b4b87f2d214f, tls: true, skip-cert-verify: false, servername: a.khashi72.dpdns.org, client-fingerprint: unsafe, network: ws, ws-opts: {path: /f3d6a9b8a82d/proxyip=150.136.243.175, headers: {Host: a.khashi72.dpdns.org}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -63,14 +68,19 @@ proxy-groups:
       - DIRECT
       - سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
       - 0.00GB / 9999GB (0%)  |  📅 2099-01-01
-      - سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]
+      - سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]
       - سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]
       - سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -79,14 +89,19 @@ proxy-groups:
     proxies:
       - سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
       - 0.00GB / 9999GB (0%)  |  📅 2099-01-01
-      - سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]
+      - سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]
       - سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]
       - سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -94,14 +109,19 @@ proxy-groups:
     proxies:
       - سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
       - 0.00GB / 9999GB (0%)  |  📅 2099-01-01
-      - سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]
+      - سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]
       - سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]
       - سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -110,14 +130,19 @@ proxy-groups:
     proxies:
       - سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
       - 0.00GB / 9999GB (0%)  |  📅 2099-01-01
-      - سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]
+      - سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]
       - سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]
       - سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,14 +167,19 @@ proxy-groups:
       - 🔮 负载均衡
       - سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
       - 0.00GB / 9999GB (0%)  |  📅 2099-01-01
-      - سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]
+      - سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]
       - سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]
       - سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -162,14 +192,19 @@ proxy-groups:
       - 🔮 负载均衡
       - سرویس خشایار برای فرانک@khashayar_larangi swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
       - 0.00GB / 9999GB (0%)  |  📅 2099-01-01
-      - سرویس رایگان نوا @irnova swift-wren-bd38.nova-5f1031.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [VLESS]
+      - سرویس رایگان نوا @irnova a.khashi72.dpdns.org:443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2083 [SS]
       - سرویس رایگان نوا @irnova 104.27.118.76:2087 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova 104.27.118.76:2053 [TROJAN]
+      - سرویس رایگان نوا @irnova 104.27.118.76:8443 [SS]
       - سرویس رایگان نوا @irnova 104.26.0.207:2053 [VLESS]
-      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 104.26.0.207:2083 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2087 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2083 [VLESS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2096 [TROJAN]
+      - سرویس رایگان نوا @irnova 172.67.111.168:2053 [SS]
+      - سرویس رایگان نوا @irnova 172.67.111.168:8443 [VLESS]
 rules:
 # SANCTION BYPASS RULES
   - DOMAIN-SUFFIX,intel.com,DIRECT
